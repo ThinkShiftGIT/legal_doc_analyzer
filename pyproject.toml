@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "legal-doc-analyzer"
+version = "0.1.0"
+description = "Enterprise-Scale Multi-Modal Legal Document Analysis System"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.0"
+uvicorn = "^0.23.2"
+python-multipart = "^0.0.6"
+pydantic = "^2.4"
+pypdf = "^3.16.0"
+python-docx = "^0.8.11"
+sentence-transformers = "^3.3.1"
+chromadb = "^0.4.22"
+python-dotenv = "^1.0.0"
+mistralai = "0.4.2"
+moviepy = "^1.0.3"
+whisper = "^1.1.10"
+torch = "^2.0.0"
+torchvision = "^0.15.0"
+torchaudio = "^2.0.0"
+transformers = "^4.34"
+reportlab = "^4.2.5"
+timm = "^0.9.12"
+ffmpeg-python = "^0.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+black = "^23.9"
+isort = "^5.12"
+mypy = "^1.6"
+pylint = "^3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
